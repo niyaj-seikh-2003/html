@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Ordered and Nested ordrered lists</h1> 
+   <h3>Simple Ordered List</h3>
+   <p>This is a basic ordered list:</p>
+   <ol>
+    <li>First item</li>
+    <li>second item</li>
+    <li>Third item</li>
+    <li>Fourth item</li>
+   </ol>
+   <h4>Nested Ordered List</h4>
+   <p>This demonstrared an ordered list containing another ordered list:</p>
+   <ol>
+    <li>main item A
+    <ol>
+        <li>sub item A.1</li>
+        <li>sub item A.2</li>
+    </li>
+    </ol>
+    <li>Main item B
+        <ol>
+            <li>Sub item B1</li>
+            <li>sub item B2</li>
+        </ol>
+    </li>
+    <li>Main Item C</li>
+    <ol>
+        <li>Sub item C1</li>
+        <li>Sub item C2</li>
+    </ol>
+   </ol>
+   <h1>Unordered and Nasted Unordered lists</h1>
+   <h3>Simple Unordered list</h3>
+   <p>This is a basic unoredered list:</p>
+   <ul>
+    <li>Item One</li>
+    <li>Item two</li>
+    <li>Item Three</li>
+    <li>Item Four</li>
+   </ul>
+   <h3>Nasted Unordered list</h3>
+   <p>This demonstrsated an unoredreed list containing anotherr unoredred list;</p>
+   <ul>
+    <li>Main category1</li>
+        <ul>
+            <li>Sub-catahory 1.1</li>
+            <li>Sub-catagory 1.2</li>
+        </ul>
+    <li>Main catagory 2</li>
+        <ul>
+            <li>Sub catagory 1.1</li>
+            <li>Sub catagory 1.2</li>
+            <li>Sub catagory 1.3</li>
+        </ul>
+    <li>main catagory 3</li>
+    <ul>
+        <li>Sub catagory 1.1</li>
+        <li>Sub catagory 1.2</li>
+        <li>Sub catagory 1.3</li>
+    </ul>
+   </ul>
+   <h1>Defination and Nested definition lists</h1>
+   <h3>Simple defination list</h3>
+   <p>This is a basic definition list:</p>
+   <dl>
+    <dt>HTML</dt>
+        <dd>Hyper txt markup language.The standered markup language for cresating web pages.</dd>
+    <dt>CSS</dt>
+        <dd>cascading style sheets.used for describing the presentation of a document written in HTML</dd>
+    <dt>java script</dt>
+        <dd>A programming language that enables interactive web pages.</dd>
+   </dl>
+   <h3>Nested Defination List</h3>
+   <p>This demonstrateds a defination list containing another definition list within a definition dscrioption:</p>
+   <dl>
+    <dt>web technologies</dt>
+    <dd>a collection of tools and languages used to build wevsites and web applocations.</dd>
+    <dl>
+        <dt>frontend</dt>
+        <dd>technologies that run on the server, handling data storage, logic,and security</dd>
+        <dl>
+            <dt>HTML</dt>
+            <dd>structure of content</dd>
+            <dt>css</dt>
+            <dd>styling and layour.</dd>
+            <dt>java script</dt>
+            <dd>interactivity.</dd>
+        </dl>
+        <dt>backend</dt>
+        <dd>tchcnologies that run on the server, handling data storage, logic and security.</dd>
+    </dl>
+    <dt>database</dt>
+    <dd>organized collection of data.</dd>
+   </dl>
+   <h2>Demonstration of HTML lists and their attributes</h2>
+   <h4>ordered lists(<ol>)</h4>
+        <p>Ordered lists are used for itens that need to be in a specific sequence.They have attributed to controltheir numvering and statintpoint.</p>
+    <h4>Default orderd list(type="1")</h4>
+        <ol type="1">
+            <li>First default item</li>
+            <li>Second default item</li>
+            <li>Third default item</li>
+        </ol>
+    <h4>Ordered list with 'type'attribute (roman numerals)</h4>
+        <ol thpe="roman">
+            <li>first roman numeral item</li>
+            <li>second roman numeral item</li>
+            <li>Third roman numeral item</li>
+        </ol>
+    <h4>orderd list with 'type'attribute(lowercase letters)</h4>
+        <ol type="lowercase">
+            <li>first lower case latter item</li>
+            <li>second lowercase latter item</li>
+            <li>third lowerdcase latter item</li>
+        </ol>
+    <h4>ordered list with 'start'attribute</h4>
+        <ol start="5"></ol>
+            <li>starts from five</li>
+            <li>six</li>
+            <li>seven</li>
+    <h4>ordered list with 'reversed' attribute</h4>
+        <ol reversed="3">
+            <li>counts down from the lasrt item</li>
+            <li>secokcd last</li>
+            <li>last item</li>
+        </ol>
+    <h4>nasted ordered lists with mixed attributes</h4>
+        <ol type="A">
+            <li>Main task 1
+                <ol type="roman" start="iii">
+                    <li>Sub task 1.1(stats from 'iii')</li>
+                    <li>sub task 1.2</li>
+                </ol>
+            </li>
+            <li>Main task 2</li>
+                <ol reversed="2">
+                    <li>sub task 2.1</li>
+                    <li>sub task 2.2</li>
+                </ol>
+            <li>main task 3</li>
+        </ol>
+    <h4>unordered lists &lt;ul&gt;</h4>
+        unorderd lists ate used for items where the otrder does not matter .the 'type'attributesfor e.g &lt;ul&gt;("disc","circle","square") is deparecated in HTML 5.
+    <h4>default unordered list (usually disc)</h4>
+        <ul>
+            <li>item A</li>
+            <li>item B</li>
+            <li>itrm C</li>
+        </ul>
+    <h4>nesjted unoredered lists</h4>
+        <ul>
+            <li>catagory alpha</li>
+                <ul>
+                    <li>sub catagory alpha-1</li>
+                    <li>sub catagory alpha -2</li>
+                </ul>
+            <li>catagory beta</li>
+                <ul>
+                    <li>sub catagory beta 1</li>
+                    <li>sub catagory beta 2</li>
+                    <li>sub catagory beta 3</li>
+                </ul>
+        </ul>
+</body>
+</html>

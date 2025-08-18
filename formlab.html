@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms Demonstration</h1>
+    <h3>1.Contact Form</h3>
+    <fieldset>
+        <legend>Personal Informatin</legend>
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="John Deo" vlaue="na" id="na">
+        <br><br>
+        <label for="Email">Email Address</label>
+        <input type="text" placeholder="example@domain.com" value="" id=""><br><br>
+        <label for="Phone number">Phone Number</label>
+        <input type="number" placeholder="123-456-7890" value="pn" id="pn"><br><br>
+        <label for="text">Your Massage</label>
+        <textarea name="reason" id="reason" placeholder="type your massage here...."></textarea><br><br>
+        <input type="checkbox" name="subscribe to our newslatter" id="sn" value="sn">
+        <label for="subscribe">Subscribe to our newsletter</label><br><br>
+        <button>submit</button>
+        <button>Clear Form</button>
+    </fieldset>
+    <h3>User Registration Form</h3>
+    <fieldset>
+        <legend>Create Account</legend>
+        <label for="un">User name:</label>
+        <input type="text" name="username" value="" id="un" ><br><br>
+        <label for="pwd">Password:</label>
+        <input type="number" name="pwd" value="" id="pwd"><br><br>
+        <label for="nuimber">Confirm Password:</label>
+        <input type="cpwd" name="cpwd" id="cpwd"><br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="id"><br><br>
+        <div>
+            <label for="gender">Gender:</label><br><br>
+            <input type="radio" name="gender" id="m" value="male">
+            <label for="m">Male</label><br>
+            <input type="radio" name="gender" id="f" value="Female">
+            <label for="f">FeMale</label><br>
+            <input type="radio" name="gender" id="o" value="Other">
+            <label for="o">Other</label>
+        </div><br>
+        <div>
+            <label for="c">Country:</label>
+            <select name="country" id="country">
+                
+                <option value="ind">India</option>
+                <option value="pak">Pakistan</option>
+                <option value="chin">Chaina</option>
+                <option value="ban">Bangladesh</option>
+                <option value="aus">Austrelia</option>
+                <option value="nz">New Zelan</option>
+                <option value="">Sauth Africa</option>
+                <option value="zim">Zimbawe</option>
+                <option value="sr">Sri lanka</option>
+                <option value="uae">United Arab</option>
+            </select>
+           
+        </div><br>
+        <input type="checkbox" name="I agree" id="ia">
+        <label for="I Agree to the">I Agree to the <a href="">Term and Condition</a> </label><br><br>
+        <button>Register</button>
+    </fieldset>
+
+    <br><br>
+    <h3>3.Customer Feedback Survay</h3>
+    <fieldset>
+        <legend>Survay Information</legend><br>
+        <p>How  satisfied are you with our service?</p><br>
+        <input type="range" value="">
+        <label for="">5/10</label><br>
+        <label for="text">which products have you used?(Select all apply)</label><br>
+        <input type="checkbox" name="product" id="pr">
+        <label for="p">Product A</label><br>
+        <input type="checkbox" name="product" id="pr">
+        <label for="p">Product B</label><br>
+        <input type="checkbox" name="product" id="pr">
+        <label for="p">Product C</label><br>
+        <input type="checkbox" name="product" id="pr">
+        <label for="p">Product D</label><br>
+        <input type="checkbox" name="product" id="pr">
+        <label for="p">Product E</label><br>
+
+        <label for="">How often do you use our services?</label><br>
+        <select name="select" id="select"></select>
+        <input type="text" placeholder="--please select--"><br>
+
+        <label for="">Do you have any suggesstion for improvement?</label><br>
+        <textarea name="" id="" rows="10" cols="90"></textarea><br>
+
+        <label for="">How likely are you to recommend us</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Very Like</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Very Like</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Likely</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Natural</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Unlikely</label><br>
+        <input type="radio" name="vl" id="like">
+        <label for="like">Very Unlikely</label><br>
+        <button>Submit Survey</button>
+
+    </fieldset>
+
+</body>
+</html>
