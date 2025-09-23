@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: azure;
+    padding: 20px;
+    justify-content: space-between;
+}
+.left{
+    width: 200px;
+    text-align: center;
+
+}
+.right{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+.content{
+    background-image: url(./mountain.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+}
+.cont{
+    display: flex;
+    background-color: rgb(217, 215, 207);
+    padding: 50px;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+    height: 600px;
+}
+.left1{
+    display: flex;
+    height: 300px;
+    width:  250px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+.right1{
+   
+    align-items: center;
+    justify-content: center;
+}
+.gal{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: larger;
+
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.lower img{
+    display: flex;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.lower img:hover{
+    transform: scale(1.1);
+
+}
+#image{
+    display: flex;
+  
+
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}

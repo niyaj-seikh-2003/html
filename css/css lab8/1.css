@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: rgb(237, 232, 232);
+    flex-direction: column;
+}
+.head1{
+    display: flex;
+    background-color: rgb(22, 78, 201);
+    height: 50px;
+    width: 100%;
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 14px;
+}
+.head2{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-between;
+    color: gray;
+    align-items: center;
+   
+    
+}
+a{
+    text-decoration: none;
+}
+.img1{
+    display: flex;
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head2>a{
+    display: flex;
+    text-decoration: none;
+    color:gray;
+    justify-items: center;
+
+}
+input{
+    display: flex;
+    width: 70%;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    padding: 10px;
+}
+h1{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     background-color: white;
+     box-shadow: 1px 1px 1px gray;
+     height: 300px;
+}
+.main-1{
+    height: 100px;
+    width: 200px;
+    box-shadow:0px 0px 1px gray;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    align-items: center;
+    padding: 5px;
+    
+}
+.main1{
+    display: flex;
+    gap: 20px;
+}
+.main-1>span{
+    font-weight: bolder;
+}
+.main-1>p{
+    display: flex;
+    align-items: center;
+}
+ footer{
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+ }
+ .footer-box{
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+ .footer-box span{
+     font-weight: bold;
+     color: white;
+ }
+ .footer-box a{
+     text-decoration: none;
+     color: rgb(196, 195, 195);
+ }

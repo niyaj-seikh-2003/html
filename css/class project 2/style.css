@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 48px;
+    padding: 20px 0px;
+    background-color: blueviolet;
+    color: white;
+}
+#catagories{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+.catagory{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: aquamarine;
+    transition: all 1s ease;
+}
+.catagory:hover{
+    transform: scale(1.2);
+}
+.catagory>img{
+    height: 75px;
+    border-radius: 50%;
+}
+.title{
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+footer{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    
+}
+#deals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.product>img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 5px 5px 10px rgb(255, 92, 92);
+    padding: 20px;
+    transition: all 1s ease;
+
+}
+.product:hover{
+    transform: scale(1.1);
+}
+.oldprice{
+    text-decoration: 2px solid black line-through;
+    margin-right: 0px 5px;
+}
+button{
+    width: 100%;
+    background-color: rgba(0,0,0,580);
+    color: white;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px 0px;   
+}
+.floating-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+}
+.floating-whatsapp img{
+    height:100px;
+    width: 100px;
+    display: flex;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>1.Software Training institute Registration Form</h3>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="first name"><br><br>
+                <label for="Email Address">Email Address:</label>
+                <input type="text" id="Email Address" name="email"><br><br>
+                <label for="number">Phone Number:</label>
+                <input type="number" id="number" name="phone number">
+            </div><br>
+            <div>
+                <label for="heq">Highest Education qualification:</label>
+                <select name="course" id="heq" >
+                    <option value="">---select your options---</option>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                </select>
+            </div>
+            <div>
+                <p>Employment Status:</p>
+                <input type="radio" id="studdent" value="student" name="employment">
+                <label for="student">student</label><br>
+                <input type="radio" id="employed" value="employed" name="employment">
+                <label for="employed">employed</label><br>
+                <input type="radio" id="unemployed" value="unemployed" name="employment">
+                <label for="unemployed">unemployed</label><br>
+                <input type="radio" id="self-employed" value="self-employed" name="employment">
+                <label for="self-employed">self-employed</label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Course Selection</legend>
+            <P>Course Catagory</P>
+            <select name="catagory" id="catagory">
+                <option value="">--select catagory--</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+            </select>
+            <p>Specific Course:</p>
+            <select name="specific course" id="specific course">
+                <option value="">--select course--</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+            </select>
+            <p>course level:</p><br>
+            <select name="slevel" id="select level">
+                <option value="">--select level--</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+            </select>
+            <p id>preffere batch timing:</p>
+            <select name="time" id="select timig">
+                <option value="">select batch timing</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Technical Background</legend>
+            <p>Programming Language lnoown (select all that apply):</p>
+            <input type="checkbox" id="java" name="java" value="text">
+            <lebal for="java">Java</lebal><br>
+            <input type="checkbox" id="python" name="python" value="text">
+            <lebal for="python">python</lebal><br>
+            <input type="checkbox" id="java script" name="js" value="text">
+            <lebal for="java script">Java script</lebal><br>
+            <input type="checkbox" id="c#" name="c#" value="text">
+            <lebal for="c#">C#</lebal><br>
+            <input type="checkbox" id="c++" name="c++" value="text">
+            <lebal for="c++">C++</lebal><br>
+            <input type="checkbox" id="php" name="php" value="text">
+            <lebal for="php">php</lebal><br>
+            <input type="checkbox" id="other" name="other" value="text">
+            <lebal for="other">Other</lebal><br>
+            <label for="number">Years of programming expereience:</label>
+            <input type="number"><br>
+            <p>Technical background</p>
+            <textarea name="text" id="feedback" placeholder="Briefly descibe your technical background or experience...." ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Payment details</legend>
+            <p>payment mentod:</p>
+            <input type="radio" id="credit card" value="cc" name="payment">
+            <label for="credit card">Credit Card</label><br>
+            <input type="radio" id="debitcard" value="dc" name="payment">
+            <label for="debitcard">Debit card</label><br>
+            <input type="radio" id="banktransfer" value="bt" name="payment">
+            <label for="banktransfer">Bank Transfer</label><br>
+            <input type="radio" id="paypal" value="pp" name="payment">
+            <label for="paypal">PayPay</label><br>
+            <p>payment plan:</p>
+            <select name="payment detail" id="details">
+                <option value="">--select payment plan--</option>
+                <option value="a" >A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+            </select><br><br>
+            <input type="text">
+            <label for="">Apply for Early Bird Discount(if available)</label>
+        </fieldset>
+        <fieldset>
+            <legend>Additional information</legend>
+            <p>How did you hear about us?</p>
+            <input type="text" placeholder="--select option--"/>
+            <p>What are your learning goals?</p>
+            <textarea name="feedback" id="" rows="5" cols="50">describe wht you hopw to achive through this training...  </textarea><br>
+            <input type="checkbox" id="subscribe">
+            <label for="subscribe">Subscirbe to our newsletter for updates on neew course and offers</label><br><br>
+            <input type="checkbox" id="agree">
+            <label for="agree">I agree to the Terms and Conditions</label>
+        </fieldset><br>
+        <button>Register</button>&nbsp;<button>Clear form</button>
+    </form>
+</body>
+</html>

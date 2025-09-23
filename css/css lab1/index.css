@@ -1,0 +1,138 @@
+#abc{
+    border: 3px solid rgb(43, 116, 226);
+    margin-bottom: 10px;
+}
+.a{
+    color: red;
+    font-family: 'Times New Roman';
+}
+.b{
+    color: rgb(0, 94, 255);
+    font-family: verdana;
+}
+.c{
+    color: rgb(0, 128, 28);
+    font-family: georgia;
+}
+.d{
+    color: rgb(255, 225, 0);
+    font-family:'Courier New';
+}
+.e{
+    color: rgb(195, 0, 255);
+    font-family: arial;
+}
+#aaa{
+    border: 3px dashed rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+.aa{
+    color: red;
+    font-family: 'Times New Roman';
+}
+.bb{
+    color: rgb(0, 94, 255);
+    font-family: verdana;
+
+}
+.cc{
+    color: rgb(0, 128, 28);
+    font-family: georgia;
+}
+.dd{
+    color: rgb(255, 225, 0);
+    font-family:'Courier New';
+}
+
+.ee{
+    color: rgb(195, 0, 255);
+    font-family: arial;
+}
+#bbb{
+    border: 3px dotted rgb(0, 255, 0);
+    margin-bottom: 10px;
+}
+.aab{
+    color: red;
+    font-family: 'Times New Roman';
+}
+.bbc{
+    color: rgb(0, 94, 255);
+    font-family: verdana;
+}
+.ccd{
+    color: rgb(0, 128, 28);
+    font-family: georgia;
+}
+.dde{
+    color: rgb(255, 225, 0);
+    font-family:'Courier New';
+}
+.eef{
+    color: rgb(195, 0, 255);
+    font-family: arial;
+}
+#bbbc{
+    border: 3px solid rgb(255, 213, 0);
+    margin-bottom: 10px;
+}
+.aabc{
+    color: red;
+    font-family: 'Times New Roman';
+}
+.bbcd{
+    color: rgb(0, 94, 255);
+    font-family: verdana;
+}
+.ccde{
+    color: rgb(0, 128, 28);
+    font-family: georgia;
+}
+.ddef{
+    color: rgb(255, 225, 0);
+    font-family:'Courier New';
+}
+.eefg{
+    color: rgb(195, 0, 255);
+    font-family: arial;
+}
+#bbbcd{
+    border: 3px solid rgb(238, 0, 255);
+    margin-bottom: 10px;
+}
+.aabcd{
+    color: red;
+    font-family: 'Times New Roman';
+}
+.bbcdd{
+    color: rgb(0, 94, 255);
+    font-family: verdana;
+}
+.ccded{
+    color: rgb(0, 128, 28);
+    font-family: georgia;
+}
+.ddefd{
+    color: rgb(255, 225, 0);
+    font-family:'Courier New';
+}
+.eefgd{
+    color: rgb(195, 0, 255);
+    font-family: arial;
+}
+#a1{
+    background-color: rgba(187, 180, 139, 0.511);
+    font-style: italic;
+}
+#a2{
+    background-color: rgba(51, 151, 185, 0.671);
+    font-weight: bold;
+}
+#a3{
+    background-color: rgb(81, 171, 121);
+    text-decoration:underline ;
+}
+#a4{
+background-color: rgb(219, 96, 131);
+text-transform: uppercase;
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+h3{
+    color: rgb(7, 144, 14);
+    padding: 10px;
+    font-size: 30px;
+}
+.p4{
+    font-size: 20px;
+    padding: 10px;
+}
+.a1{
+    border-radius: 2px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(78, 180, 248);
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+}
+.a12{
+    border-radius: 2px;
+    height: 50px;
+    width: 80px;
+    background-color: rgb(78, 180, 248);
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+}
+.a{
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+}
+
+.b{
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction:column;
+    display: flex;
+}
+
+
+.c{
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction:row-reverse;
+    display: flex;
+    height: 150px;
+}
+.d{
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction:column-reverse;
+    display: flex;
+    height: 150px;
+    
+}
+.e{
+    border: 2px solid red;
+    padding: 10px;
+    justify-content:flex-start;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
+.f{
+    border: 2px solid red;
+    padding: 10px;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row;
+
+    height: 150px;
+    
+}
+.g{
+    border: 2px solid red;
+    padding: 10px;
+    justify-content:center;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
+.h{
+    border: 2px solid red;
+    padding: 10px;
+    justify-content:space-between;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
+.i{
+    border: 2px solid red;
+    padding: 10px;
+    justify-content:space-around;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
+.j{
+    border: 2px solid red;
+    padding: 10px;
+    justify-content:space-evenly;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
+.k{
+    border: 2px solid red;
+    padding: 10px;
+   align-items: flex-start;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}.l{
+    border: 2px solid red;
+    padding: 10px;
+    align-items: flex-end;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}.m{
+    border: 2px solid red;
+    padding: 10px;
+    align-items: center;
+    flex-direction:row;
+    display: flex;
+    height: 150px;
+    
+}
