@@ -358,10 +358,12 @@
 // }
 // console.log(string(word));
 
-// 4:-
+ // 4:-
 
-
-
+ 
+// let string=prompt("Enter your word");
+// const name= ((str)=> str.toLowerCase());
+// console.log(name(string));
 
 
 
