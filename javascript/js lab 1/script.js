@@ -422,14 +422,106 @@
 // console.log("oddarray : ",oddarray);
 
 // 5:
+// let numberArr = [1,2,3,4,5,6,7,8,9]
+// let sum=numberArr.reduce((p,c)=>p+c,0);
+// console.log("sum :",sum)
 
 
-let numbers=[+prompt()]
-let sum=0;
-numbers.forEach((e,i)=>{
-    sum=sum+e;
-})
-console.log(sum);
+
+// =====================================================================================================
+//                                                                          DAY-7
+// ==============================================================================================================
+
+// 1:-
+
+// function getArray(){
+//     let array=[];
+//     let input=prompt("Enter array elements separated by comma");
+//     const strNum=input.split(',');
+//     for(let num of strNum){
+//         const number=parseInt(num);
+//         array.push(number);
+//     }
+//     return array;
+    
+// }
+// const numbers=getArray();
+// numbers.sort( );
+// console.log(numbers);
+// number.reverse();
+// console.log(reverse);
+
+
+
+// 2:-
+
+// let mixedArr = ['apple', 10, 'banana', 20, 'cherry', 30];
+
+// const strings=mixedArr.filter((e,i) => typeof(e) != 'number');
+// const numbers=mixedArr.filter((e,i) => typeof(e) == 'number');
+
+// console.log(strings);
+// console.log(numbers);
+
+
+
+// 3:-
+
+// let numberArray = [2,3,4,5,6,7,8,10,12,13];
+// const even=numberArray.filter((e,i)=>e%2==0)
+// const odd=numberArray.filter((e,i)=>e%2!=0);
+// console.log("even no is :",even);
+// console.log("odd no is :",odd);
+
+// 4:-
+
+// let numberArr = [1,2,3,4,5,6,7,8,9]
+// let sum=numberArr.reduce((p,c)=>p+c,0);
+// console.log("sum :",sum);
+
+
+// 5:-
+
+
+// let namesArray = ["ravindra","rohit","aniket"];
+
+// let uppercase=namesArray.map((e,i)=>e.toUpperCase())
+// console.log("uppercase names : ",uppercase)
+
+
+// 6:-
+
+
+// const nums = [10, 20, 30, 40, 50];
+// let sum=nums.reduce((p,c)=>p+c,0)
+// let avg=sum/num.length;
+// console.log("average of the array elements :",avg);
+
+// =============================================================================================================================
+//                                                                   DAY-8
+// ==============================================================================================================================
+
+// 1:-
+
+//  let obj={
+//     name:prompt(),
+//     age:+prompt(),
+//     email:prompt()
+// }
+// // console.log(obj)
+// console.log("name :",obj.name)
+// console.log("age :",obj.age)
+// console.log("email :",obj.email)
+
+
+
+// 2:-
+
+
+
+
+
+
 
 
 

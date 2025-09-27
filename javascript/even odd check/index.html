@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Even or Odd Checker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        border: 2px solid rgb(162, 166, 168);
+        background-color: azure;
+        box-shadow: 0px 0px 5px blue;
+
+    }
+    .boxes {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .box.even {
+      /* default look for even box */
+      background-color: #f0f0f0;
+    }
+    .box.odd {
+      /* default look for odd box */
+      background-color: #f0f0f0;
+    }
+    .box.highlight-even {
+      background-color: #03f40b;  /* light green */
+      border-color: rgb(126, 129, 126);
+    }
+    .box.highlight-odd {
+      background-color: #fa061e;  /* light red / pink */
+      border-color: rgb(157, 157, 157);
+    }
+  </style>
+</head>
+<body>
+ <div class="main">
+     <h1>EVEN OR ODD CHECKER</h1>
+  <div>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+  <button id="checkBtn">Click here</button>
+  </div>
+
+  <div class="boxes">
+    <div class="box even" id="evenBox">Even</div>
+    <div class="box odd" id="oddBox">Odd</div>
+  </div>
+ </div>
+
+  <script>
+    const numberInput = document.getElementById("numberInput");
+    const checkBtn = document.getElementById("checkBtn");
+    const evenBox = document.getElementById("evenBox");
+    const oddBox = document.getElementById("oddBox");
+
+    checkBtn.addEventListener("click", () => {
+      // Clear any previous highlight classes
+      evenBox.classList.remove("highlight-even");
+      oddBox.classList.remove("highlight-odd");
+
+      const val = numberInput.value;
+      if (val === "") {
+        alert("Please enter a number");
+        return;
+      }
+
+      const num = parseInt(val, 10);
+      if (isNaN(num)) {
+        alert("Invalid number");
+        return;
+      }
+
+      if (num % 2 === 0) {
+        // even
+        evenBox.classList.add("highlight-even");
+      } else {
+        // odd
+        oddBox.classList.add("highlight-odd");
+      }
+    });
+
+    // (Optional) also allow pressing Enter key in the input to trigger check
+    numberInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        checkBtn.click();
+      }
+    });
+  </script>
+</body>
+</html>
