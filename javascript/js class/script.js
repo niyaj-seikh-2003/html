@@ -110,62 +110,84 @@
 //     }console.log(`the sum of test ${+i+1} is ${sum}`)
 // }
 
-let arr=[1,2,3,4,5]
-arr.push("niyaj");
-console.log(arr);
-arr.pop()
-console.log(arr)
-arr.unshift("niyaj seikh")
-console.log(arr)
-arr.shift()
-console.log(arr)
-arr.splice(2,3)
-console.log(arr)
-arr=[2,5,8,9,6,]
-arr.forEach(function (e,i){
-    console.log(e)
-})
-let sum=0;
-arr.forEach(function(e,i){
-    sum=sum+e;
-})
-console.log(sum)
-arr=[9,6,7,4,5]
-arr.forEach(function(ele,ind){
-    console.log(ele**3)
-})
-arr=[9,6,7,4,5]
-let x=arr.map((ele,ind)=>{
-return ele*ele;
-})
-console.log(x)
-let h=arr.map((ele,ind)=>{
-    return ele**3;
-})
-console.log(h)
-let y=arr.filter((ele,ind)=>{
-    return ele<7;
-})
-console.log(y)
-console.log(arr.indexOf(7));
-arr=[5,4,7,6,8,9,10]
-let z=arr.filter((ele,ind)=>{
-    if(ele%2!=0){
-        return ind;
-    }
-})
-console.log(z)
-arr=[5,4,7,6,8,3,10]
+// let arr=[1,2,3,4,5]
+// arr.push("niyaj");
+// console.log(arr);
+// arr.pop()
+// console.log(arr)
+// arr.unshift("niyaj seikh")
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+// arr.splice(2,3)
+// console.log(arr)
+// arr=[2,5,8,9,6,]
+// arr.forEach(function (e,i){
+//     console.log(e)
+// })
+// let sum=0;
+// arr.forEach(function(e,i){
+//     sum=sum+e;
+// })
+// console.log(sum)
+// arr=[9,6,7,4,5]
+// arr.forEach(function(ele,ind){
+//     console.log(ele**3)
+// })
+// arr=[9,6,7,4,5]
+// let x=arr.map((ele,ind)=>{
+// return ele*ele;
+// })
+// console.log(x)
+// let h=arr.map((ele,ind)=>{
+//     return ele**3;
+// })
+// console.log(h)
+// let y=arr.filter((ele,ind)=>{
+//     return ele<7;
+// })
+// console.log(y)
+// console.log(arr.indexOf(7));
+// arr=[5,4,7,6,8,9,10]
+// let z=arr.filter((ele,ind)=>{
+//     if(ele%2!=0){
+//         return ind;
+//     }
+// })
+// console.log(z)
+// arr=[5,4,7,6,8,3,10]
 
-let res=arr.reduce((p,c)=>{
-    return p+c;
-},0)
-console.log(res);
-let obj={
-    name:"Niyaj",
-    age:22
-}
-console.log(obj)
-console.log(obj.name)
-console.log(obj.age)
-Object.freeze(name)
+// let res=arr.reduce((p,c)=>{
+//     return p+c;
+// },0)
+// console.log(res);
+// let obj={
+//     name:"Niyaj",
+//     age:22
+// }
+// console.log(obj)
+// console.log(obj.name)
+// console.log(obj.age)
+// Object.freeze(name)
+
+
+// let names=["raja","puja","john","maaja"]
+// let m=names.filter((e,i)=>e.endsWith('a'))
+// let n=m.map((e,i)=>e.charAt(0))
+// console.log(n);
+
+// let arr=[5,8,7,6,1,9,3]
+// let c=arr.find((e,i)=>e%2!=0 && e>5)
+// console.log(c)
+// let arr=[5,4,6,7,8,9,10]
+// let y=arr.map((e,i)=>{
+//     return e%2!=0 ?i:'null'
+// })
+// let z= y.filter((e,i)=>e!='null')
+// console.log(z)
+
+let str='niyaj'
+let reversed=str.split("").reverse();
+console.log(reversed)
+// console.log(str.split(' ').reverse( ))
+

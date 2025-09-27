@@ -366,6 +366,74 @@
 // console.log(name(string));
 
 
+// ======================================================================================================
+//                                                          DAY-7
+// =====================================================================================================
+
+// 1:-
+
+// let arr=[1,2,3,4,5,6,7,8,9,10]
+// let x=arr.forEach((e,i)=>{
+//     console.log(e)
+// })
+
+// 2:-
+// let numbers=[45,3,25,78,12]
+// numbers.sort((e,i)=>e-i);
+// console.log(numbers);
+// numbers.sort((e,i)=>i-e)
+// console.log(numbers)
+
+
+// // 3:-
+
+// let mixedArray = [12, "apple", 45, "banana", "cherry", 78, "orange"];
+
+// let numbers = [];
+// let strings = [];
+
+// mixedArray.forEach(item => {
+//   if (typeof item === "string") {
+//     strings.push(item);
+//   } else if (typeof item === "number") {
+//     numbers.push(item);
+//   } else {
+//   }
+// });
+
+// console.log("Numbers:", numbers); 
+// console.log("Strings:", strings); 
+
+
+// 4:-
+
+// let numbers=[3,12,25,45,78]
+// let evenarray=[];
+// let oddarray=[];
+
+// numbers.forEach(item=>{
+//     if(item%2==0){
+//         evenarray.push(item);
+//     }else{
+//         oddarray.push(item);
+//     }
+// });
+// console.log("evenarray : ",evenarray);
+// console.log("oddarray : ",oddarray);
+
+// 5:
+
+
+let numbers=[+prompt()]
+let sum=0;
+numbers.forEach((e,i)=>{
+    sum=sum+e;
+})
+console.log(sum);
+
+
+
+
 
 
 
