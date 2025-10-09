@@ -186,8 +186,15 @@
 // let z= y.filter((e,i)=>e!='null')
 // console.log(z)
 
-let str='niyaj'
-let reversed=str.split("").reverse();
-console.log(reversed)
+// let str='niyaj'
+// let reversed=str.split("").reverse();
+// console.log(reversed)
 // console.log(str.split(' ').reverse( ))
 
+
+
+document.addEventListener('keydown' ,function(e)
+{
+    if(e.key == 'r')
+        Document.getElemntById("para").style.color="red"
+})

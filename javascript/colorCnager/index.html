@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .color-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" rounded-4 d-flex flex-column justify-content-center h-50 w-75  ">
+        <div class="container d-flex flex-column justify-content-center align-items-center bg-success-subtle h-100 w-50 rounded-4">
+            <h1 class="h">Color Changer</h1>
+            <p>Click a button to change the background color.</p>
+
+            <div class="d-flex">
+                <button class="color-button blue-button bg-primary text-white " onclick="changeBackground('blue')">Blue</button>
+                <button class="color-button red-button bg-danger text-white" onclick="changeBackground('red')">Red</button>
+                <button class="color-button green-button bg-success text-white" onclick="changeBackground('green')">Green</button>
+                <button class="color-button yellow-button bg-warning text-white" onclick="changeBackground('yellow')">Yellow</button>
+                <button class="color-button purple-button bg-info text-white" onclick="changeBackground('purple')">Purple</button>
+                <button class="color-button gray-button bg-secondary text-white" onclick="changeBackground('gray')">Gray</button>
+                <button class="color-button white-button" onclick="changeBackground('white')">White</button>
+                <button class="color-button black-button bg-dark text-white" onclick="changeBackground('black')">Black</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function changeBackground(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
