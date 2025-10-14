@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Screen Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    #progressContainer {
+      width: 80%;
+      background-color: #ddd;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    #progressBar {
+      height: 100%;
+      width: 0%;
+      background-color: #4CAF50;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      transition: width 0.1s;
+    }
+
+    #welcomeMessage {
+      display: none;
+      font-size: 24px;
+      color: #333;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div id="progressContainer">
+    <div id="progressBar">0%</div>
+  </div>
+
+  <!-- Welcome Message -->
+  <div id="welcomeMessage"> Welcome to the Website! </div>
+
+  <script>
+    // Initialize progress value
+    let progress = 0;
+    const progressBar = document.getElementById('progressBar');
+    const progressContainer = document.getElementById('progressContainer');
+    const welcomeMessage = document.getElementById('welcomeMessage');
+
+    // Run progress every 100 milliseconds
+    let interval = setInterval(() => {
+      progress++;
+      progressBar.style.width = progress + '%';
+      progressBar.textContent = progress + '%';
+
+      // When progress reaches 100, stop interval and show welcome message
+      if (progress >= 100) {
+        clearInterval(interval);
+        progressContainer.style.display = 'none';
+        welcomeMessage.style.display = 'block';
+      }
+    }, 100);
+  </script>
+
+</body>
+</html>
