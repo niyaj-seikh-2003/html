@@ -40,7 +40,7 @@
 // }
 // function reset(){
 //     c = 0;
-//     ele.textContent=c
+//     ele.textConten   t=c
 // }
 
 

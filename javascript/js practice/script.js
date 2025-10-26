@@ -293,12 +293,16 @@ d.textContent="Shaikh mohammed Niyajuddin";
 
 
 let c=0;
+let ele=document.getElementById('count');
 function incr()
 {
     if(c<20)
     {
         c++;
-        document.getElementById('count').textContent=c;
+        ele.textContent=c;
+    }
+    else{
+        alert("no increament till 20 :")
     }
 }
 function decr()
@@ -306,16 +310,16 @@ function decr()
     if(c>0)
     {
         c--;
-        Element.textContent=c;
+        ele.textContent=c;
     }
     else{
         alert("Number should not be less then zero");
     }
 }
-function resert()
+function reset()
 {
     c=0;
-    Element.textContent=c;
+    ele.textContent=c;
 }
 
 
